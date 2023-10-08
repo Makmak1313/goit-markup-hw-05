@@ -414,3 +414,217 @@ padding: 8px;
 .footer-soc-link:active {
 background-color: #31d0aa;
 }
+.footer-subscribe {
+display: flex;
+
+}
+.form-text {
+color:  #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+.footer-form-input {
+width: 264px;
+height: 40px;
+background-color:  #2E2F42;
+border-radius: 4px;
+border: 1px solid  #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color:  #FFF;}
+.footer-form-btn 
+
+.backdrop {
+position: fixed;
+top: 0;
+width: 100%;
+height: 100%;
+background:  rgba(46, 47, 66, 0.40);
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+}
+.is-open {
+opacity: 1;
+visibility: visible;
+pointer-events: auto;
+}
+.modal { 
+width: 408px;
+min-height: 584px;
+border-radius: 4px;
+background-color:  #FCFCFC;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 24px;
+}
+.modal-btn {
+border-radius: 50%;
+border:none;
+position: absolute;
+top: 24px;
+right: 24px;
+width: 24px;
+height: 24px;
+padding: 0;
+fill:  #E7E9FC;
+stroke-width: 1px;
+border: rgba(0, 0, 0, 0.10);
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn:hover, .modal-btn:focus {
+background-color: #404BBF;
+}
+.modal-btn-close {
+width: 8px;
+height: 8px;
+flex-shrink: 0;
+color: #2E2F42;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-title {
+width: 360px;
+height: 24px;
+color: #2E2F42;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+margin-top: 72px;
+margin-right: 24px;
+margin-bottom: 16px;
+margin-left: 24px;
+}
+.modal-input {
+width: 100%;
+height: 40px;
+border-radius: 4px;
+border: 1px solid  rgba(46, 47, 66, 0.40);
+padding-left: 38px;
+background-color: transparent;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-btn {
+padding: 16px 32px;
+color:  #FFF;
+font-style: inherit;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+border-radius: 4px;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+outline: transparent;
+background-color: transparent;
+margin: 0 auto;
+letter-spacing: 0.04em;
+background-color:  #4D5AE5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-btn:focus,
+.modal-form-btn:hover {
+background-color: #404BBF;
+}
+.input-wrap {
+position: relative;
+}
+.modal-input:focus {
+border-color: #4D5AE5;
+}
+.modal-label {
+display: block;
+color:  #8E8F99;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.48px;
+margin-bottom: 4px;
+}
+.modal-field {
+margin-bottom: 8px;
+}
+.modal-icon {
+position: absolute;
+left: 16px;
+top: 50%;
+transform: translateY(-50%);
+fill: #2E2F42;
+transition: color 250ms ubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input:focus + .modal-icon {
+fill:  #4d5ae5;
+}
+.modal-textarea {
+width: 100%;
+height: 120px;
+border-radius: 4px;
+border: 1px solid rgba(46, 47, 66, 0.40);
+padding-top: 8px;
+padding-right: 287px;
+padding-bottom: 98px;
+padding-left: 16px;
+background-color: transparent;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+resize: none;
+}
+.modal-textarea::placeholder {
+color: rgba(46, 47, 66, 0.40);
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.48px;
+}
+.ckeckbox-field {
+margin-bottom: 24px;
+}
+.new-box {
+width: 16px;
+height: 16px;
+display: inline-flex;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+fill: transparent;
+outline: transparent;
+background-color: transparent;
+border: 1px solid (46, 47, 66, 0.40);
+border-radius: 2px;
+margin-right: 8px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.check-text {
+width: 338px;
+color:  #8E8F99;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.48px;
+}
+.check-link {
+outline: transparent;
+background-color: transparent;
+color: #4D5AE5;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.48px;
+text-decoration-line: underline;
+}
