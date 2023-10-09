@@ -464,6 +464,10 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 padding: 72px 24px 24px 24px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 1px 3px rgba(0, 0, 0, 0.12), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn {
 border-radius: 50%;
@@ -487,6 +491,7 @@ background-color: #e7e9fc;
 }
 .modal-btn:hover, .modal-btn:focus {
 background-color: #404BBF;
+border: none;
 }
 .modal-btn-close {
 width: 8px;
@@ -494,6 +499,9 @@ height: 8px;
 flex-shrink: 0;
 color: #2E2F42;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn-close:hover, .modal-btn-close:focus {
+fill: #ffffff;
 }
 
 .modal-title {
@@ -505,6 +513,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
+margin-bottom: 16px;
 
 }
 .modal-input {
@@ -536,7 +545,8 @@ margin: 0 auto;
 letter-spacing: 0.04em;
 background-color:  #4D5AE5;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
 }
 .modal-form-btn:focus,
 .modal-form-btn:hover {
@@ -558,7 +568,7 @@ margin-bottom: 4px;
 line-height: 1.17;
 }
 .modal-field {
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 .modal-icon {
 position: absolute;
