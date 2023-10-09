@@ -416,7 +416,7 @@ background-color: #31d0aa;
 }
 .footer-form {
 display: flex;
-gap 24px;
+gap: 24px;
 }
 .form-text {
 color:  #FFF;
@@ -429,11 +429,33 @@ margin-bottom: 16px;
 .footer-form-input {
 width: 264px;
 height: 40px;
-background-color:  #2E2F42;
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: transparent;
 border-radius: 4px;
+padding-left: 16px;
 border: 1px solid  #FFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-color:  #FFF;}
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+color:  #FFF;
+}
+.footer-form-btn {
+min-width: 165px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+border-radius: 4px;
+
+}
 .footer-form-icon {
 margin-left: 16px;
 }
