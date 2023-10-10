@@ -414,6 +414,9 @@ padding: 8px;
 .footer-soc-link:active {
 background-color: #31d0aa;
 }
+.footer-subscribe {
+margin-left: 80px;
+}
 .footer-form {
 display: flex;
 gap: 24px;
@@ -653,7 +656,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1),
 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-check-box:checked + .check-text .new-box {
-background-color: #4D5AE5;
+background-color: #404bbf;
 fill: #F4F4FD;
 border: none;
 }
